@@ -5,6 +5,7 @@ locale = "de"
 [[message]]
 id = 1
 name = "source.file_not_found"
+translated = true
 text = "Die Quelldatei wurde nicht gefunden"
 placeholders = []
 
