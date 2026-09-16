@@ -956,7 +956,7 @@ placeholders = []
 
 [[message]]
 id = 137
-name = "ir_lowering.closure_values_have no native ABI representation"
+name = "ir_lowering.closure_native_abi_representation_missing"
 translated = true
 text = "Closure-Werte haben keine native ABI-Darstellung"
 placeholders = []
@@ -1064,7 +1064,7 @@ id = 152
 name = "ir_lowering.iterator_interface_method_implementation_missing"
 translated = true
 text = "Die Iterator-Interface-Methode '{methodName}' hat keine generierte Implementierung"
-placeholders = []
+placeholders = [{ name = "methodName", type = "string" }]
 
 [[message]]
 id = 153
@@ -1498,7 +1498,7 @@ id = 214
 name = "ir_lowering.array_binary_operation_unsupported"
 translated = true
 text = "Array-Operation '{operatorText}' ist nicht implementiert"
-placeholders = []
+placeholders = [{ name = "operatorText", type = "string" }]
 
 [[message]]
 id = 215
@@ -1638,7 +1638,7 @@ id = 234
 name = "ir_lowering.imported_method_inherited_slot_missing"
 translated = true
 text = "Die importierte Methode '{methodName}' hat keinen geerbten Slot im Quell-Receiver-Type '{receiverType}' (deklariert die importierte Klasse '{declaringClass}', Quell-Importbasis ist '{sourceBase}')"
-placeholders = [{ name = "methodName", type = "string" }, { name = "receiverType", type = "string" }, { name = "declaringClass", type = "string" }, { sourceName = "sourceBase", type = "string" }]
+placeholders = [{ name = "methodName", type = "string" }, { name = "receiverType", type = "string" }, { name = "declaringClass", type = "string" }, { name = "sourceBase", type = "string" }]
 
 [[message]]
 id = 235

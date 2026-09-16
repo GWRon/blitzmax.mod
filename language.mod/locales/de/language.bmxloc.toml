@@ -301,7 +301,7 @@ placeholders = []
 id = 43
 name = "parser.expected_collection_after_each_in"
 translated = true
-text = Eine Collection nach 'EachIn' wurde erwartet.
+text = "Eine Collection nach 'EachIn' wurde erwartet."
 placeholders = []
 
 [[message]]
@@ -938,7 +938,7 @@ placeholders = []
 id = 134
 name = "binding.each_in_deconstruction_binding_type_mismatch"
 translated = true
-text = "Die 'EachIn'-Bindung '{bindingName}' hat den Typ '{bindingType}', aber die 'IDeconstruct2'-Komponente hat den Typ '{componentType}'."
+text = "Die 'EachIn'-Bindung '{bindingName}' hat den Typ '{bindingType}', aber die 'IDeconstruct2'-Komponente '{componentIndex}' hat den Typ '{componentType}'."
 placeholders = [{ name = "bindingName", type = "string" }, { name = "bindingType", type = "string" }, { name = "componentIndex", type = "integer" }, { name = "componentType", type = "string" }]
 
 [[message]]
